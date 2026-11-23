@@ -1,6 +1,17 @@
-ISM — STANDALONE EDITION WITH USERNAME AND PASSWORD
+ISM — PDF WATERMARK STUDIO
 
-This package runs independently from ChatGPT Sites. Visitors use the app's
+PUBLIC GITHUB PAGES VERSION
+
+The browser app is published at https://samimamdouh.github.io/pdf-watermarker/.
+This is a public static site with no login or access control. PDFs and names
+stay in the visitor's browser; never put credentials or private documents here.
+
+The separately hosted Node.js version below uses a shared username and
+password. GitHub Pages cannot run that server or enforce its login.
+
+NODE.JS EDITION: USERNAME AND PASSWORD
+
+This Node.js edition runs independently from ChatGPT Sites. Visitors use the app's
 username and password. ChatGPT sign-in is not part of this edition.
 It currently uses ONE SHARED ACCOUNT, with no public registration or
 individual accounts. Share the credentials with the people you authorize.
@@ -21,7 +32,7 @@ To choose a different username: npm run setup -- your-username
 Open http://127.0.0.1:3000 and sign in. On Mac, Start.command runs setup
 when needed and starts the app; keep its terminal window open.
 
-DEPLOY TO YOUR OWN HOST
+DEPLOY THE AUTHENTICATED NODE.JS EDITION TO YOUR OWN HOST
 
 Choose a host that can run a Node.js server or the included Dockerfile.
 A static-only host cannot enforce this login. Serve the app over HTTPS.
